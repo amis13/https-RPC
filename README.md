@@ -52,5 +52,8 @@ Edit New Configuration: Use a text editor like nano to create a new configuratio
 ## Finally, add a cronjob to crontab to enable auto-newing of the certificates:
 ```
 crontab -e
+```
+Then, add:
+```
 0 12 * * * /usr/bin/certbot renew --quiet
 ```
