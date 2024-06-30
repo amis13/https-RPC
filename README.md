@@ -16,7 +16,8 @@ Frist, ensure that all packages are up to date. This can prevent security vulner
 ```
 sudo ufw enable && \
 sudo ufw allow 'Nginx HTTP' && \
-sudo ufw allow 'Nginx HTTPS'
+sudo ufw allow 'Nginx HTTPS' && \
+sudo ufw allow 22
 ```
 
 ## Intall Certbot.
