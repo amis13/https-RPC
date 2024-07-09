@@ -4,7 +4,7 @@ how to set up a https RPC, using NGINX and Certbot.
 ## Update System Packages
 Frist, ensure that all packages are up to date. This can prevent security vulnerabilities.
 
-```sudo apt update && sudo apt upgrade -y && sudo apt autoremove```
+```sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y```
 
 ## Install Monitoring and Web Server Tools.
 ```sudo apt install -y glances```
